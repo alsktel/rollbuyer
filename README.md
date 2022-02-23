@@ -7,7 +7,7 @@ To install rollbuyer follow these steps:
 2. Go to directory in which MASSA was installed
 3. Extract archve `tar -xvf rollbuyer.tar`
 4. Make installation script executable `sudo chmod +x rollbuyer/install.sh`
-5. Run installation script `rollbuyer/install.sh`
+5. Run installation script `sudo rollbuyer/install.sh`
 6. Make sure that rollbuyer is installed `rollbuyerd help`
 
 # Usage

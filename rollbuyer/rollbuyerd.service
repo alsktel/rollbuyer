@@ -1,0 +1,17 @@
+[Unit]
+Description = Massa ROLLs automatic buy service
+Requires = massad.service
+After = massad.service
+
+[Service]
+Type = oneshot
+RemainAfterExit = true
+ExecStart =
+ExecStart = /bin/rollbuyerd start
+ExecStop =
+ExecStop = /bin/rollbuyerd stop
+ExecReload =
+ExecReload = /bin/rollbuyerd restart
+
+[Install]
+WantedBy = multi-user.target
